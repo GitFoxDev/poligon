@@ -1,0 +1,103 @@
+#dropZone, #resultZone, #historyZone, #bodyZone {
+	font-size: 18px;
+	text-align: center;
+	width: 400px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#dropZone {    
+	color: #555;
+	
+	padding: 50px 0;
+	margin: 20px auto;
+	margin-top: 40px;
+    
+	background: #eee;
+	border: 1px solid #ababab;
+}
+
+#dropZone.hover {
+	background: #ddd;
+	border-color: #aaa;
+}
+
+#dropZone.error {
+	background: #faa;
+	border-color: #f00;
+}
+
+#dropZone.drop {
+	background: #afa;
+	border-color: #0f0;
+}
+
+#resultZone {
+	color: #fff;
+	
+	padding: 5px 0;
+	margin: 5px auto;
+	
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+#resultZone.error {
+	color: #f73a3a;
+	background: #ffd8d8;
+	border: 1px solid #ff6363;
+}
+
+#resultZone.success {
+	color: #0baa0f;
+	background: #d8ffdd;
+	border: 1px solid #41d155;
+}
+
+#resultZone.upload {
+	color: #555;
+	background: #eee;
+	border: 1px solid #ababab;
+}
+
+#historyZone {    
+	color: #555;
+	
+	padding: 5px 0;
+	margin: 20px auto;
+	margin-top: 40px;
+    
+	background: #eee;
+	border: 1px solid #ababab;
+	
+	overflow: auto;
+}
+
+#historyZone .id, #historyZone .name {
+	float: left;
+}
+#historyZone .id {
+	width: 100px;
+	text-align: right;
+}
+#historyZone .name {
+	width: 250px;
+}
+
+#bodyZone {
+	color: #fff;
+	text-align: left;
+	
+	padding: 5px 0;
+	margin: 5px auto;
+	
+	background: #fff;
+	border: 1px solid #fff;
+}
+#bodyZone.result {
+	color: #0baa0f;
+	background: #d8ffdd;
+	border: 1px solid #41d155;
+}
