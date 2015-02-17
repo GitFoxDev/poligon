@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		
+	</head>
+	<body>
+		<table id="tableZone1">
+			<tr><td>1</td><td>2</td><td>2</td></tr>
+		</table>
+		
+		<br><br><br>
+		
+		<table id="tableZone2">
+			<tr><td>a</td><td>b</td><td>c</td></tr>
+		</table>
+		
+		<script>
+			var tableTemp;
+
+			tableTemp = $('#tableZone1').html();
+			$('#tableZone1').html($('#tableZone2').html());
+			$('#tableZone2').html(tableTemp);
+		</script>
+	</body>
+</html>
