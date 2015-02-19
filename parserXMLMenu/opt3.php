@@ -3,7 +3,7 @@ $urlXML = 'http://www.wextor.ru/udata/content/menu/';
 $urlXSL = 'http://www.wextor.ru/udata/content/menu/';
 
 $xml = new DOMDocument;
-$xml->loadXML($urlXML);
+$xml->load($urlXML);
 
 $xsl = new DOMDocument;
 $xsl->load($urlXSL);
