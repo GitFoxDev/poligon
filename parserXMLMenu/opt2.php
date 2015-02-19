@@ -15,7 +15,6 @@ if (($xml = simplexml_load_file($url)) !== false) {
 		<title>RuPromo</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="opt1.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div class="menu-wrapper">
