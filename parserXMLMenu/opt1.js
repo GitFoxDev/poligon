@@ -18,7 +18,6 @@ function getXMLDocument(url)
 		}
 		else
 		{
-			alert("Загрузка XML не поддерживается браузером");
 			return null;
 		}
 }
